@@ -31,8 +31,8 @@ h1 {
     font-style: oblique;
     font-size: 60px;
     border: 10px dotted darkslategrey;
-    width: max-content;
-    padding: 20px 100px;
+    width: 500px;
+    padding: 10px;
     margin: auto;
     text-align: center;
 }
