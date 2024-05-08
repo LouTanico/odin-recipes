@@ -4,6 +4,16 @@
     font-family: "Times New Roman". 'Times New Roman', Times, serif;
 }
 
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }  
+
 body {
     background-color: bisque;
 }
@@ -17,9 +27,14 @@ h1 {
 }
 
 .home-title {
-    background-color: rgba(213, 169, 60, 0.526);
     text-align: center;
     font-style: oblique;
+    font-size: 60px;
+    border: 10px dotted darkslategrey;
+    width: max-content;
+    padding: 20px 100px;
+    margin: auto;
+    text-align: center;
 }
 
 h2 {
@@ -29,6 +44,7 @@ h2 {
 
 .home-recipe-list {
     font-size: 25px;
+    padding-left: 0px;
 }
 
 p {
@@ -46,4 +62,18 @@ p {
 
 .ingredients-list {
     font-weight: bold;
+}
+
+.home-recipe-list a {
+    display: block;
+    border: 5px solid goldenrod;
+    padding: 10px 0px;
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.home-recipe-list a:hover {
+    background-color: rgb(66 28 40);
+    color: #fff;
 }
